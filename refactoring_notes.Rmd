@@ -1,0 +1,35 @@
+## Refactoring Notes
+
+Refactoring is the process of taking code and restructuring/rewriting/reworking it, while maintaining its original functionality
+
+#### When should you refactor?
+
+Many reasons you should do it:
+
+-   when the code doesn't fit anymore
+-   it's old knowledge
+-   enhance performance
+
+refactoring, may be painful, but it's beneficial
+
+#### Real Life Example
+
+the section in the book uses a medical analogy to explain refactoring
+
+Lesson here: don't be hesitant. Take care of the bug now!
+
+#### How do you refactor?
+
+basically, when you are refactoring code, don't rush it. Take it slow.
+
+Book has three helpful tips:
+
+1.  Don't try to refactor and add functionality at the same time (can lead to gogolamash)
+2.  Make sure to write good test before refactoring.
+3.  Take short steps.
+
+Ex.
+
+Transition save session from excel file to sqlite file.
+
+Summary: took code that worked for excel file and reworked for sqlite file still kept that same functionality, instead of saving to a excel file, it saves to a sqlite file.
